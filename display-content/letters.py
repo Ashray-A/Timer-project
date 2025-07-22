@@ -482,4 +482,4 @@ def displayString(string):
 
 
 # Display a string of letters
-displayString("RUSHIL")
+displayString("ASHRAY")
