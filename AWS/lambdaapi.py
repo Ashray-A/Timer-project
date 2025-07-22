@@ -10,7 +10,7 @@ def lambda_handler(event, context):
         body="i am in post method"
         json_data = json.loads(event['body'])
         res = client.publish(
-            topic='$aws/things/rushilThing/shadow/update/delta',
+            topic='$aws/things/ashrayThing/shadow/update/delta',
             qos=1,
             payload=json.dumps(json_data)
         )
