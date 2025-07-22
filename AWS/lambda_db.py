@@ -52,7 +52,7 @@ def lambda_handler(event, context):
   court = 'court1'
   date = '24/09/2024'
   time = '09:10'
-  user = 'rushil.br'
+  user = 'ashray.a'
   return schedule(court,date, time, user)
 
 
